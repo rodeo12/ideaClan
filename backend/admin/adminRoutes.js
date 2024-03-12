@@ -7,7 +7,7 @@ const adminController = require('./adminController');
 // router.use(authMiddleware);
 
 // Routes for Admin functionalities
-router.post('/admin/login', adminController.adminLogin);
+
 router.post('/courses', adminController.createCourse);
 router.put('/courses/:id', adminController.updateCourse);
 router.delete('/courses/:id', adminController.deleteCourse);
